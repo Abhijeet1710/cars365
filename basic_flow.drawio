@@ -1,9 +1,147 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Page-1" id="wWmOEDKeMTCyhZt2FcyP">
-    <mxGraphModel dx="1434" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="5797" dy="3346" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-1" value="search-service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qUWVAcCTvBU_kGuhnZ83-3" target="qUWVAcCTvBU_kGuhnZ83-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-3" value="sell vehicle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qUWVAcCTvBU_kGuhnZ83-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-4" value="Buy Used Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-5" value="Buy New Vehicle" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="1440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-6" value="SellReq" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="570" y="720" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-7" value="Buy Orders" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="570" y="1280" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-8" value="Inventory" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="850" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qUWVAcCTvBU_kGuhnZ83-1" target="qUWVAcCTvBU_kGuhnZ83-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-10" value="Admin Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qUWVAcCTvBU_kGuhnZ83-10" target="qUWVAcCTvBU_kGuhnZ83-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qUWVAcCTvBU_kGuhnZ83-5" target="qUWVAcCTvBU_kGuhnZ83-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="qUWVAcCTvBU_kGuhnZ83-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="690" as="targetPoint" />
+            <mxPoint x="300" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qUWVAcCTvBU_kGuhnZ83-15" value="kafka Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="qUWVAcCTvBU_kGuhnZ83-6" target="qUWVAcCTvBU_kGuhnZ83-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="qUWVAcCTvBU_kGuhnZ83-8" target="qUWVAcCTvBU_kGuhnZ83-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-5" target="qUWVAcCTvBU_kGuhnZ83-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-5" target="qUWVAcCTvBU_kGuhnZ83-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-5" target="qUWVAcCTvBU_kGuhnZ83-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-5" target="qUWVAcCTvBU_kGuhnZ83-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-5" target="qUWVAcCTvBU_kGuhnZ83-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-5" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-870" y="810" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-12" target="hplpcJ8It4pL53vS1SNm-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-12" value="Cars 365 UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1310" y="826.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-14" target="qUWVAcCTvBU_kGuhnZ83-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-14" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.kafka;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="89" width="56.699999999999996" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-17" value="Vehicle Brands (External Systems)&lt;br&gt;Ex. Toyota, BMW etc.." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="79" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hplpcJ8It4pL53vS1SNm-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-270" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-271" y="114" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-20" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Search Service&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="543" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-21" value="&lt;ul&gt;&lt;li&gt;All the vehicle get requests will be in search service.&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;getAllVehicles&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;locateVehicles&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;getAllNewVehicles&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;getAllUsedVehicles&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;getAllBrands (Active)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;cars365 active in (Citys)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Testimonials (Customers)&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="563" width="340" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-22" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Sell Used Vehicles&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="793" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-23" value="&lt;ul&gt;&lt;li&gt;All Sell Used Vehicle related API&#39;s&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/Draft (Sell Used Vehicle details)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/Save&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/Submit (Ready to be Approved by Admin)&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/Admin/Approve&amp;nbsp;&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Move vehicle from SaleReqDB to Inventory&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1772" y="823" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-24" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Buy Vehicles&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1860" y="1023" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-25" value="&lt;ul&gt;&lt;li&gt;Buy Vehicle Flow related API&#39;s (New | Used)&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/Buy&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;/Admin/Approve - Success&lt;/li&gt;&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;Vehicle will be moved to SoldVehiclesDB from Inventory&lt;/li&gt;&lt;/ol&gt;&lt;/ol&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="1055" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-26" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;&lt;b&gt;Kafka&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="1203" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-27" value="&lt;ul&gt;&lt;li&gt;Ingest new vehicles from external brands&lt;/li&gt;&lt;/ul&gt;&lt;ol&gt;&lt;li&gt;events based architecture&lt;/li&gt;&lt;li&gt;event type : vehicle-updated-event&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1780" y="1233" width="280" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-28" value="APIG" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-850" y="918" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-29" value="New brand vehicles kafka" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-310" y="140" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-30" value="(Springboot)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="165" y="140" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-31" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1480" y="-70" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hplpcJ8It4pL53vS1SNm-32" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="2470" y="1560" width="50" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
