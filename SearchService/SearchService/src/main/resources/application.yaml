@@ -1,8 +1,14 @@
 spring:
   application:
     name: SearchService
+  data:
+    mongodb:
+#      uri: mongodb://localhost:27017/mydatabase
+      uri: mongodb+srv://root:rootPassword@cluster0.1o2va.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: cars365DB
 
 server:
   port: 8082
   servlet:
     context-path: /search
+  
